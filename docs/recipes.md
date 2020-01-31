@@ -30,8 +30,20 @@
   "cardType": "tutorial"
 },
 {
+  "name": "Making the Enemies Move",
+  "description": "MOVE SHARK",
+  "url": "/recipes/shark-splash/02-A-enemies",
+  "cardType": "tutorial"
+},
+{
+  "name": "Using Multiple Enemy Images",
+  "description": "PRETTY SHARK",
+  "url": "/recipes/shark-splash/02-B-enemies",
+  "cardType": "tutorial"
+},
+{
   "name": "Projectile Effects",
-  "description": "SHARK [explosion noise]",
+  "description": "SHARK [EXPLOSION]",
   "url": "/recipes/shark-splash/03-projectiles",
   "cardType": "tutorial"
 },
