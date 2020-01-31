@@ -42,6 +42,12 @@
   "cardType": "tutorial"
 },
 {
+  "name": "Make Enemies Damage the Player",
+  "description": "DANGER SHARK",
+  "url": "/recipes/shark-splash/02-C-enemies",
+  "cardType": "tutorial"
+},
+{
   "name": "Projectile Effects",
   "description": "SHARK [EXPLOSION]",
   "url": "/recipes/shark-splash/03-projectiles",
