@@ -5,6 +5,7 @@
     "dependencies": {
         "settings": "file:../settings",
         "screen---st7735": "file:../screen---st7735",
-        "power": "file:../power"
+        "power": "file:../power",
+        "led": "file:../led"
     }
 }

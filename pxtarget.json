@@ -25,7 +25,6 @@
         "libs/thermometer",
         "libs/base",
         "libs/core",
-        "libs/core---samd",
         "libs/core---stm32",
         "libs/core---linux",
         "libs/core---vm",
@@ -37,8 +36,6 @@
         "libs/mouse",
         "libs/hw",
         "libs/hw---stm32f401",
-        "libs/hw---samd51",
-        "libs/hw---rpi",
         "libs/hw---vm",
         "libs/feather",
         "libs/sevenseg",
@@ -64,6 +61,7 @@
         "libs/jacdac-services",
         "libs/jacdac-game",
         "libs/power",
+        "libs/led",
         "libs/controller",
         "libs/controller---none",
         "libs/edge-connector",
@@ -76,11 +74,8 @@
         "libs/palette",
         "libs/storyboard",
         "libs/rotary-encoder",
-        "libs/d5prj",
         "libs/f4prj",
-        "libs/rpiprj",
-        "libs/color-coded-tilemap",
-        "libs/template"
+        "libs/color-coded-tilemap"
     ],
     "compile": {
         "useUF2": true,
@@ -144,7 +139,7 @@
                     }
                 }
             ],
-            "0.0.0 - 0.14.57": [
+            "0.0.0 - 0.14.54": [
                 {
                     "type": "missingPackage",
                     "map": {
@@ -180,9 +175,9 @@
             },
             "compileService": {
                 "codalTarget": {
-                    "name": "codal-big-brainpad",
-                    "url": "https://github.com/lancaster-university/codal-big-brainpad",
-                    "branch": "v1.1.4",
+                    "name": "codal-hetao",
+                    "url": "https://github.com/di-xv/codal-hetao",
+                    "branch": "master",
                     "type": "git"
                 },
                 "codalBinary": "STM32",
@@ -386,8 +381,7 @@
             "snippetBuilder",
             "experimentalHw",
             "recipes",
-            "tutorialBlocksDiff",
-            "blocksCollapsing"
+            "alwaysGithubItemBlocks"
         ],
         "extendEditor": true,
         "simScreenshot": true,
@@ -397,11 +391,7 @@
         "simGifKey": "R",
         "qrCode": true,
         "shareFinishedTutorials": true,
-        "nameProjectFirst": true,
-        "githubEditor": true,
-        "githubCompiledJs": true,
-        "chooseLanguageRestrictionOnNewProject": true,
-        "openProjectNewTab": true
+        "nameProjectFirst": true
     },
     "unsupportedBrowsers": [
         {
