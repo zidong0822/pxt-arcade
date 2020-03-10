@@ -392,7 +392,8 @@
         "simGifKey": "R",
         "qrCode": true,
         "shareFinishedTutorials": true,
-        "nameProjectFirst": true
+        "nameProjectFirst": true,
+        "hasReferenceDocs": true
     },
     "unsupportedBrowsers": [
         {
