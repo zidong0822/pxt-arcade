@@ -6,6 +6,7 @@
         "settings": "file:../settings",
         "screen---st7735": "file:../screen---st7735",
         "power": "file:../power",
-        "led": "file:../led"
+        "led": "file:../led",
+        "extra-buttons": "file:../extra-buttons"
     }
 }

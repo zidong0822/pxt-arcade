@@ -62,6 +62,7 @@
         "libs/jacdac-game",
         "libs/power",
         "libs/led",
+        "libs/extra-buttons",
         "libs/controller",
         "libs/controller---none",
         "libs/edge-connector",
