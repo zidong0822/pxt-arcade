@@ -699,4 +699,16 @@ declare const enum DAL {
     Function = 5,
     // built/codal/pxtapp/pxtconfig.h
     PXT_VM = 0,
+
+    // for hetao extra buttons and spi led
+    CFG_PIN_BTN_A1 = 500,
+    CFG_PIN_BTN_A2 = 501,
+    CFG_PIN_BTN_A3 = 502,
+    CFG_PIN_BTN_A4 = 503,
+    CFG_PIN_BTN_A5 = 504,
+    CFG_PIN_BTN_B1 = 505,
+    CFG_PIN_BTN_B2 = 506,
+    CFG_PIN_BTN_B3 = 507,
+    CFG_PIN_BTN_B4 = 508,
+    CFG_PIN_SPI_LED = 509,
 }
